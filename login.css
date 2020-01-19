@@ -1,0 +1,233 @@
+/* BACKGROUND IMAGE */
+body, html {
+ background-color: black;
+ height: 100%;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.bg-image {
+ height: 50%;
+ background-position: center;
+ background-size: cover;
+}
+
+.img1 { background-image: url("img_laptop1edit.jpg"); }
+.img2 { background-image: url("img_keyboard1edit.jpg"); }
+.img3 { background-image: url("img_earphone1edit.jpg"); }
+.img4 { background-image: url("img_mouse1edit.jpg"); }
+
+.bg-text {
+ color: white;
+ font-weight: bold;
+ font-size: 40px;
+ border: 5px solid white;
+ position: fixed; 
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ padding: 20px;
+ text-align: center;
+}
+
+/* FOOTER */
+.footer {
+ width: 100%;
+ height: 20px;
+ text-align: center;
+ color: white;
+}
+
+/* IMAGE GALLERY */
+.gallery {
+ margin: 5px;
+ border: 1px solid white;
+ float: left;
+ width: 180px;
+}
+
+.gallery:hover {
+ border: 1px solid white;
+}
+
+.gallery img {
+ width: 100%;
+ height: auto;
+}
+
+.desc {
+ color: white;
+ font-weight: bold;
+ padding: 15px;
+ text-align: center;
+}
+
+/* LOGIN */
+h1{
+	text-align: center;
+	font-weight: 300;
+}
+ 
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+ 
+.kotak_login{
+	width: 350px;
+	background: white;
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: black;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+
+
+
+
+
+.kotak_login .inputbox{
+	position: relative;
+}
+
+.kotak_login .inputbox input{
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	background: transparent;
+}
+
+.kotak_login .inputbox label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #fff; 
+	pointer-events: none;
+	transition: .5s;
+}
+
+.kotak_login .inputbox input:focus ~ label
+.kotak_login .inputbox input:valid ~ label{
+	top: -18px;
+	left: 0;
+	color: #03a9f4;
+	font-size: 12px;
+}
+
+.kotak_login input[type="submit"]{
+	width: 
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: black;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px
+}
+
+.tulisan_or{
+	text-align: center;
+}
+ 
+.kotak_login{
+	width: 400px;
+	background: rgba(0,0,0,.8);
+	margin: 80px auto;
+	padding: 40px;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px white;
+	border-radius: 10px;
+}
+.container-fluid {
+	 
+    background-color:#00CED1;
+    font-size:18px;
+    
+}
+
+ .navbar-nav > li > a {
+	 padding-top:5px;
+	 padding-bottom:5px;
+ }
+
+.navbar-text {
+		
+		font-size: 18px;
+		
+}
+
+.header-section	{
+	background:url("backgron.jpg");
+}
+
+.content-section {
+	background-color: white;
+}
+
+.keunggulan {
+	
+	background-size: cover;
+	border-top: 1px solid #d6dee7;
+	border-bottom: 1px solid #d6dee7;
+	padding: 72px 0;
+
+.keunggulan {
+	padding: 15px 0;
+}
+
+.keunggulan .unggul-content {
+	padding: 34px 22px 20px;
+	background: #fff;
+	border: 1px solid #d6dee7;
+	border-top: none;
+	position: relative;
+}
+
+.keunggulan .unggul-content h5{
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+.content-section{
+	background:url("backgron.jpg");
+}
+
+.form-group {
+	padding-left:10px;
+	padding-right:10px;
+}
